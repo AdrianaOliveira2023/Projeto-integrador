@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+
+    <style>
+
+        .tabela-menu  a:visited {
+        color: #ffffff;            /* Cor do texto para links já visitados */        
+        }
+
+        .tabela-menu  a:hover {
+        color: #000000;            /* Cor do texto quando o mouse paira sobre o link */        
+        }
+
+        .tabela-menu .link-atual {    /* Cor do link quando estiver com a página ativa */
+            color:#000000
+        }             
+        
+        body {
+            font-size: 16px;   
+            margin: 0;
+            padding: 0;
+        }    
+
+        .footer-text {
+            font-size: 12px;        
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-family: monospace;
+        }
+
+        th {
+            background-color: #a5cccc;           /* Células de cabeçalho / link de navegação */
+            font-size: 18px;                       
+        }
+
+        ul{
+            list-style-type: square;
+            line-height: 1.5em;
+        }
+
+        .recuo-primeira-linha{
+            text-indent: 20px;                    
+        }
+    
+    </style>
+
+</head>
+<body style="background-color:#e1eeee;">                          
+
+    <table width="80%" cellspacing="0" border="0">                         <!-- Tabela principal contendo outras tabelas -->
+
+        <tr>
+            <td>
+                <table width="100%" border="0" style="background-color:#a5cccc;"> <!-- Cabeçalho / linha com logo -->
+                        <tr>
+                            <td align="right" style="width: 100px;">
+                                <img src="Imagens/codigo.png" alt="Composição zeros e uns" width="30%" height="10%" style="border-radius: 50%"> 
+                            </td>
+                            <td style="width: 80%;">
+                                <h1>Projetos</h1>               
+                            </td>
+                        </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" class="tabela-menu" cellpadding="10" border="0">                          <!-- Link navegação / defini width -->
+                    <tr align="center">                                                 
+                        <th><a href="index.html" target="_blank">Home</a></th>           <!-- Substituí o td por th -->
+                        <th><a href="sobre.html" target="_blank">Sobre</a></th>
+                        <th style="background-color:#87b5b4"> <span class="link-atual">Projetos</span></th>  <!--com span  de cor para link atual-->
+                        <th><a href="contato.html" target="_blank">Contato</a></th>
+                        <th>
+                            <form target="_blank" action="https://www.google.com/search" method="get" style="margin: 0 auto; text-align: right;"> <!-- Adicionei um form para pesquisar -->
+                                <input name="q" type="search" style="width: 80px;">
+                                <input type="submit" value="Pesquisar">
+                            </form>
+                        </th>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>      
+                <table width="100%" border="0" style="background-color: #F0FFF0;">  <!-- Tabela body contendo colgrup, table ... -->  
+                    <colgroup>
+                        <col width="80%">
+                        <col width="20%">
+                    </colgroup>
+
+                    <tr>
+                        <td style="padding: 5px;"> <!--Espaçamento entre o texto e a borda -->
+
+                            <table>
+                                <tr>
+                                    <td>                        
+                                    <p align="justify">
+                                        Aqui estão alguns projetos que realizei durante o <strong>Curso de Front-End do Senac Maracanã</strong>.
+                                    </p>
+                                    <p class="recuo-primeira-linha">Bem-vindo à minha galeria de projetos de front-end, onde você poderá explorar meu trabalho como 
+                                        estudante em busca de aprimoramento em desenvolvimento web. Cada projeto exibido aqui é um 
+                                        passo em minha jornada de aprendizado.                                        
+                                    </p>
+
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>                                                                                  
+                                          
+                                        <ul>
+                                            <li>
+                                                <strong>Projeto 01:</strong><a href="https://adrianaoliveira2023.github.io/TabelaPlanetas/" target="_blank">Planetas em Tabela</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/Planetas.png" alt="Planetas"><br>
+                                                <p class="recuo-primeira-linha">
+                                                    Criar uma página em tabela foi uma tarefa e tanto. Mas com apoio da turma e atenção do professor, acho que dei conta.
+                                                    Como iniciante, não me faltou a empolgação de visualizar o resultado. Ao longo do processo, a
+                                                    criatividade surgiu como resultado de outra paixão; o <strong>Photoshop</strong>. Quem não ama observar o Espaço? Chegar nesse resultado foi bem divertido.
+                                                </p>
+                                            </li>
+                                            <br>                                            
+
+                                            <li>                                                
+                                                <strong>Projeto 02:</strong><a href="https://adrianaoliveira2023.github.io/Projeto-Padaria/" target="_blank" > Padaria Trigo e Sabor</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/Padaria.png" alt="Padaria"><br>
+                                                <p class="recuo-primeira-linha">Como estudante de <strong>front-end</strong>, a criação de uma <strong>One Page</strong> para uma padaria fictícia 
+                                                    representou uma nova etapa na introdução ao mundo do desenvolvimento web. 
+                                                    Foi o momento de colocar em prátia os conceitos iniciais que aprendi, também me 
+                                                    desafiou a exercitar minha criatividade e habilidades de design.
+                                                    Entender como deve ser uma estrutura organizada  e sólida no <strong>HTML</strong>, é essencial para quem está começando,
+                                                    e depois de tudo isso o <strong>CSS</strong>, mostra seus encantos.
+                                                </p>                                            
+                                            </li>
+                                            <br>                                         
+                                                                                   
+                                            <li>
+                                                <strong>Projeto 03:</strong><a href=" https://adrianaoliveira2023.github.io/Calculadora/" target="_blank" >Calculadora</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/Calculadora.png" alt="Calculadora"><br>
+
+                                                <p class="recuo-primeira-linha">Que coisinha complexa é uma calculadora!                                                    
+                                                    Com esse projeto, chegou hora de aprender e colocar o <strong>JavaScript</strong> em prática e ver em cada linha de código, a lógica de cálculo fazendo 
+                                                    a mágica acontecer. Foi uma jornada emocionante e desafiadora.
+                                                    Inicialmente, assustou, mas com professor paciente e uma turma dedicada, mais uma tarefa foi cumprida.                                                  
+                                                </p>                                                
+                                            </li>
+                                            <br>
+
+                                            <li>
+                                                <strong>Projeto 04:</strong><a href="https://adrianaoliveira2023.github.io/CalculadoraIMC/" target="_blank" >Calculadora IMC</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/CalculadoraIMC.png" alt="CalculadoraIMC"><br>
+                                                
+                                                <p class="recuo-primeira-linha">
+                                                    Durante o desenvolvimento desse projeto, minha curiosidade em relação à experiência dos usuários ao 
+                                                    interagir com uma ferramenta digital, só me deu mais vontade de aprender.
+                                                    Tornando o aprendizado com o professor e a turma incrivelmente, valioso e recompensador.
+                                                </p>
+                                            </li>
+                                            <br>
+
+                                            <li>
+                                                <strong>Projeto 05:</strong><a href=" https://adrianaoliveira2023.github.io/Conversor-Temperatura/" target="_blank" > Conversor de Temperatura</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/ConversorTemperatura.png" alt="Conversor de Temperatura"><br>
+                                                <p class="recuo-primeira-linha">
+                                                   Nesse projeto o professor apresentou um pouco mais de <strong>JavaScript</strong> e como já estamos 
+                                                   no finalzinho do curso, usar as referências anteriores, não faz mal para ninguém.                                                  
+                                                   O estilo foi por nossa conta e como a fotografia é outra paixão, meu registo do pôr do Sol me pareceu
+                                                   um bom background.<br> 
+                                                   Talvez, eu tenha pecado no azul do container, mas a experimentação é isso.                                                                                     
+                                                </p>
+                                            </li>
+                                            <br>
+
+                                            <li>
+                                                <strong>Projeto 06:</strong><a href=" https://adrianaoliveira2023.github.io/Conversor-Moedas/" target="_blank" > Conversor de Moedas</a>
+                                                <br>
+                                                <br>
+                                                <img src="Imagens/ConversorMoedas.png" alt="Conversor de Temperatura"><br>
+
+                                                <p class="recuo-primeira-linha">
+                                                    Último projeto, chegamos ao fim do curso e esse é meu xodó.<br>
+                                                    As referências anteriores estão presentes, porém, aqui, o <strong>CSS</strong> foi além, ele me deu a chance de testar algo 
+                                                    que sempre quis.<br>
+                                                    Como o professor nos deixou livres para estilizar, minha escolha foi usar o neumorfismo, design que me encantou
+                                                    por sua estética tridimensional suave, moderna e visualmente atraente.<br>
+                                                    Embora o neumorfismo enfrente críticas e desafios por suas falhas de acessibilidade,
+                                                    equilibrar seus aspectos positivos, pode agregar valor ao design de 
+                                                    interfaces digitais.                                           
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>                                        
+                                    </td>
+                                </tr>                                
+                                                                                
+                            </table>
+                                                      
+                        </td>
+
+                        <td align="center" valign="top" style="padding: 5px;">  <!--Espaçamento entre o texto e a borda -->
+                            <table>
+                                <tr><td><a href="https://github.com/alexbelem" target="_blank">Alexandre Belem</a></td></tr>
+                                <tr><td><a href="https://github.com/alexbelem" target="_blank">Amanda Porto</a></td></tr>
+                                <tr><td><a href="https://github.com/BrendaNassot" target="_blank">Brenda Santos</a></td></tr>
+                                <tr><td><a href="https://github.com/ESTUDOcNs" target="_blank">Carla Novaes</a></td></tr>
+                                <tr><td><a href="https://github.com/ESADDUM" target="_blank">Eduardo Addum</a></td></tr>
+                                <tr><td><a href="https://github.com/gabrielbraga98" target="_blank">Gabriel Braga</a></td></tr>
+                                <tr><td><a href="https://github.com/luissouzas" target="_blank">José Luís Serra</a></td></tr>
+                                <tr><td><a href="https://github.com/julianecalegario" target="_blank">Juliane Calegario</a></td></tr>
+                                <tr><td><a href="https://github.com/leoggusmao" target="_blank">Leonardo Gironde</a></td></tr>
+                                <tr><td><a href="https://github.com/LuanaMattos" target="_blank">Luana Souza</a></td></tr>                                
+                                <tr><td><a href="https://github.com/mvrcos-santos" target="_blank">Marcos Adriano dos Santos</a></td></tr>                               
+                                <tr><td><a href="https://github.com/MATHEUSPERENCIOLO" target="_blank">Matheus Perenciolo</a></td></tr>
+                                <tr><td><a href="https://github.com/DevRicart" target="_blank">Ricardo Ferreira</a></td></tr>
+                                <tr><td><a href="https://github.com/ThallesAlexandrevieira" target="_blank">Thalles Coimbra</a></td></tr>                               
+                                <tr><td><a href="https://github.com/Wandersondantaas" target="_blank">Wanderson Dantas</a></td></tr>
+                                <tr><td><a href="https://github.com/wesley-sorrentino" target="_blank">Wesley Sorrentino</a></td></tr>
+                                <tr><td><a href="https://github.com/yuricgdasilva" target="_blank">Yuri Carneiro</a></td></tr>
+                                <tr><td><a href="https://github.com/Yurisp23" target="_blank">Yuri Pinheiro</a></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <!-- expansão entre duas colunas-->
+                            <div style="background-color:#a5cccc; color: #000000; margin: 0;"> <!-- footer envolvido em <div> para a cor não mudar a tabela-->
+                                <table  align="center"> 
+                                    <tr>
+                                        <td>  <!-- Line-heitht para reduzir o espaçamento entre as linhas-->
+                                            <p class="footer-text" style="line-height: 1.5em;">Desenvolvido por Adriana Ribeiro Oliveira no Curso de Programador Front-End com o Prof. Anthony Freitas <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">site do professor</a>.</p>
+                                            <p class="footer-text" style="line-height: 1.5em;">Todos os direitos reservados Senai Maracanã - 2023  &copy;</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

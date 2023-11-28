@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    
+    <style> 
+
+        button {                        /* Botões laterais redes sociais*/
+            border-radius: 10px;           /* ajusta o arredondamento das bordas. */
+            width: 150px;                  /* Largura desejada */
+            height: 40px;                  /* Altura desejada */
+            border: 2px solid #87b5b4;
+            text-align: left; 
+            background-color:#F0FFF0;     
+        }      
+
+        .tabela-menu  a:visited {
+            color: #ffffff; /* Cor do texto para links já visitados */        
+        }
+
+        .tabela-menu  a:hover {
+            color: #000000; /* Cor do texto quando o mouse paira sobre o link */         
+        }
+
+        .tabela-menu .link-atual {   /* Cor do link quando estiver com a página ativa */
+            color:#000000
+        }
+
+        body {
+            font-size: 16px;   
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        .footer-text {
+            font-size: 12px;  
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-family: monospace;
+        } 
+        th { 
+            background-color: #a5cccc;         /* Células de cabeçalho / link de navegação */
+            font-size: 18px;                         
+        }           
+    </style>
+
+</head>
+<body style="background-color:#e1eeee;">                                   
+
+    <table width="80%" cellspacing="0" border="0">                           <!-- Tabela principal contendo outras tabelas--> 
+
+        <tr>
+            <td>
+                <table width="100%" border="0" style="background-color:#a5cccc;">   <!-- Tabela cabeçalho / linha com logo --> 
+                    <tr>
+                        <td align="right" style="width: 100px;">
+                            <img src="Imagens/contato.jpg" width="30%" height="10%" style="border-radius: 50%" > 
+                        </td>
+                    
+                        <td style="width: 80%;">
+                            <h1>Contato</h1>                    
+                        </td>
+                    </tr>        
+                </table>    
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" class="tabela-menu" border="0" cellpadding="10">       <!-- Tabela com link navegação  / adicionei uma Class -->            
+                    <tr align="center">                                                    
+                        <th><a href="index.html" target="_blank">Home</a></th>             <!-- Substituí o td por th -->
+                        <th><a href="sobre.html" target="_blank">Sobre</a></th>
+                        <th><a href="projetos.html" target="_blank">Projetos</a></th>
+                        <th style="background-color:#87b5b4"><span class="link-atual">Contato</span></th>  <!--com span  de cor para link atual-->
+                        <th>                                                              
+                            <form target="_blank" action="https://www.google.com/search" method="get" style="margin: 0 auto; text-align: right;"> <!-- Adicionei um form para pesquisar -->
+                                <input name="q" type="search" style="width: 80px;">
+                                <input type="submit" value="Pesquisar">
+                            </form>
+                        </th> 
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>            
+            <td>
+                <table width="100%" border="0" style="background-color: #F0FFF0;">               <!-- Tabela body contendo colgrup,tables... -->  
+                <colgroup>
+                    <col width="80%">
+                    <col width="20%">                    
+                </colgroup>
+                             
+                    <tr>
+                        <td>                            
+                            <table align="center"> <!-- Coluna do centro com links para contato nas redes sociais-->
+                                
+                                                      
+                                <tr style="line-height: 1.5em;">
+                                    <td>                                        
+                                        <p>Sou uma estudante entusiasmada de front-end, com conhecimentos iniciais em 
+                                            outras disciplinas relacionadas à web. Minha jornada de aprendizado no campo do front-end está no 
+                                            início, mas estou sempre aberta a discutir ideias, colaborar em projetos e compartilhar experiências.
+                                            Meu progresso é contínuo, e estou ansiosa para explorar novas oportunidades na criação de experiências web enriquecedoras.</p>
+                                            <p>&nbsp;</p>
+                                            <p>&nbsp;</p>
+                                            <p>&nbsp;</p>
+                                        <h2 align="center">Entre em Contato</h2>
+                                    </td>
+                                </tr>
+                                                    
+                                <tr>
+                                    <td>   
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                          <p>&nbsp;</p>
+                                                                                                                                                               
+
+                                        <a href="mailto:adriana.r.oliveira8@aluno.senai.br">                                            
+                                            <img src="Imagens/email.png" alt="Ícone de e-mail" width="20px"> 
+                                            Enviar e-mail                                           
+                                        </a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <a href="https://www.facebook.com/profile.php?id=100002977715486&locale=pt_BR" target="_blank">
+                                            <img src="Imagens/LogoFB.png" alt="Ícone do Facebook" width="20px">
+                                             Facebook                                            
+                                        </a>
+                                    </td>
+                                </tr>                                    
+                                <tr>
+                                    <td>
+                                        <a href="https://github.com/AdrianaOliveira2023" target="_blank">
+                                            <img src="Imagens/github.png" alt="Ícone do GitHub" width="20px">
+                                            Github
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.instagram.com/adriana.olliv/" target="_blank">
+                                            <img src="Imagens/LogoInsta.png" alt="Ícone do Instagram" width="20px">
+                                            Instagram                                            
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="https://www.linkedin.com/feed/" target="_blank">                                           
+                                            <img src="Imagens/LinkedinLogo.png" alt="Ícone do LinkedIn" width="20ox">
+                                            Linkedin                                            
+                                        </a>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>
+                                        <p>&nbsp;</p>                                                                               
+                                        
+                                    </td>
+                                </tr>                      
+                                    
+                            </table>                        
+                        </td>
+
+                        <td align="center" valign="top">
+
+                            <table>   <!-- icones da redes sociais da lateral -->
+                                <tr>
+                                    <td>
+                                        <h2 align="center">Contato</h2>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <button>
+                                            <a href="mailto:adriana.r.oliveira8@aluno.senai.br" target="">                                            
+                                                <img src="Imagens/email.png" alt="Ícone de e-mail" width="20px">
+                                                Enviar e-mail                                        
+                                            </a>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <button>
+                                            <a href="https://www.facebook.com/profile.php?id=100002977715486&locale=pt_BR" target="_blank">
+                                            
+                                                <img src="Imagens/LogoFB.png" alt="Ícone do Facebook" width="20px">
+                                                Facebook
+                                            </a>
+                                        </button>                                        
+                                    </td> 
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <button>
+                                            <a href="https://github.com/AdrianaOliveira2023" target="_blank">                                            
+                                                <img src="Imagens/github.png" alt="Ícone do GitHub" width="20px">
+                                                Github
+                                            </a>
+                                        </button>                                        
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <button>
+                                            <a href="https://www.instagram.com/adriana.olliv/" target="_blank">                                            
+                                                <img src="Imagens/LogoInsta.png" alt="Ícone do Instagram" width="20px">
+                                                Instagram                                        
+                                            </a>
+                                        </button>
+                                    </td>
+                                </tr>                        
+                                <tr>
+                                    <td align="center">
+                                        <button>
+                                            <a href="https://www.linkedin.com/feed/" target="_blank">
+                                            
+                                                <img src="Imagens/LinkedinLogo.png" alt="Ícone do Linkedin" width="20ox">
+                                                Linkedin                                            
+                                            </a>
+                                        </button>                            
+                                    </td>
+                                </tr>                      
+                                                    
+                            </table>
+                        </td>        
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2"> <!-- expansão entre duas colunas-->
+                            <div style="background-color:#a5cccc; color: #000000; margin: 0;"> <!-- footer envolvido em <div> para a cor não mudar a tabela-->
+                                <table  align="center">
+                                    <tr>
+                                        <td>  <!-- Line-heitht para reduzir o espaçamento entre as linhas-->
+                                            <p class="footer-text" style="line-height: 1.5em;">Desenvolvido por Adriana Ribeiro Oliveira no Curso de Programador Front-End com o Prof. Anthony Freitas <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">site do professor</a>.</p>
+                                            <p class="footer-text" style="line-height: 1.5em;">Todos os direitos reservados Senai Maracanã - 2023  &copy;</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+            </table>
+    </table>
+</body>
+</html>

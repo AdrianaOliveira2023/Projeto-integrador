@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Front-End</title>
+
+    <style>
+
+        .tabela-menu  a:visited {
+        color: #ffffff;              /* Cor do texto para links já visitados */        
+        }
+
+        .tabela-menu  a:hover {
+        color: #002aff;              /* Cor do texto quando o mouse paira sobre o link */             
+        }
+
+        .tabela-menu .link-atual {     /* Cor do link quando estiver com a página ativa */
+            color:#000000
+        }    
+      
+        body {
+            font-size: 16px;   
+            margin: 0;
+            padding: 0;
+        }        
+      
+        .footer-text {
+            font-size: 12px;  
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1 {
+            font-family: monospace;
+        }
+        th {
+            background-color: #a5cccc;           /* Células de cabeçalho / link de navegação */
+            font-size: 18px;                       /* Células de cabeçalho / link de navegação */
+        }
+
+    </style>
+
+</head>
+<body style="background-color:#e1eeee;">                             
+   
+        <table width="80%" cellspacing="0" border="0">                            <!-- Tabela principal contendo outras tabelas -->
+        <tr>
+            <td>
+                <table width="100%" border="0" style="background-color:#a5cccc;"> <!-- Tabela cabeçalho / linha com logo -->
+                    <tr>
+                        <td align="right" style="width: 80px;">
+                            <img src="Imagens/HTML5(1).png" alt="HTML" width="30%" height="10%"> 
+                        </td>
+                        <td style="width: 80%;">
+                            <h1>Front-End: A Interface Digital</h1> 
+                        </td>
+                    </tr>
+                </table> 
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" class="tabela-menu" border="0" cellpadding="10">       <!-- Link navegação  / adicionei uma Class -->            
+                    <tr align="center">                                                   
+                        <th style="background-color:#87b5b4"><span class="link-atual">Home</span></th>  <!--com span  de cor para link atual-->           
+                        <th><a href="sobre.html" target="_blank">Sobre</a></th>
+                        <th><a href="projetos.html" target="_blank">Projetos</a></th>
+                        <th><a href="contato.html" target="_blank">Contato</a></th>  
+                        <th>                                                              
+                            <form target="_blank" action="https://www.google.com/search" method="get" style="margin: 0 auto; text-align: right;"> <!-- Adicionei um form para pesquisar -->
+                                <input name="q" type="search" style="width: 80px;">
+                                <input type="submit" value="Pesquisar">
+                            </form>
+                        </th> 
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" border="0" style="background-color: #F0FFF0;">    <!-- Tabela body contendo colgrup,table... -->  
+                    <colgroup>
+                        <col width="80%">
+                        <col width="20%">
+                    </colgroup>
+                    <tr>
+                        <td style="padding: 5px;"> <!--Espaçamento entre o texto e a borda -->
+                            <h2 align="center">Curso de Desenvolvimento de Front-End: A Interface Digital</h2>
+                            <p align="justify">Nos dias de hoje, a presença digital é uma parte integral de nossa vida cotidiana. 
+                                Seja para navegar na internet, acessar aplicativos móveis ou interagir com sistemas diversos, a interface que encontramos 
+                                na tela de nossos dispositivos desempenha um papel fundamental em nossa experiência. 
+                                Essa interface, conhecida como "front-end", é a porta de entrada para a interação entre humanos e máquinas no mundo digital. 
+                                E se você tem interesse em dar vida a essas interfaces, o Curso de Desenvolvimento de Front-End pode ser o ponto de partida perfeito para você.
+                            </p>
+                    
+                            <h2 align="center">O que é Desenvolvimento de Front-End?</h2>
+                            <p align="justify">O desenvolvimento de front-end é uma disciplina no campo da tecnologia da informação que se concentra na 
+                                criação da parte visível e interativa de um site, aplicativo ou sistema. Isso envolve a implementação de elementos gráficos, 
+                                como layouts, botões e imagens, bem como a programação dos comportamentos que tornam esses elementos funcionais. Em resumo, 
+                                os desenvolvedores de front-end são os artistas e arquitetos digitais que constroem a "fachada" de um projeto digital.
+                            </p>  
+                    
+                            <h2 align="center">Por que é Importante?</h2>
+                            <p align="justify">A importância do desenvolvimento de front-end não pode ser subestimada. Uma interface bem projetada e 
+                                intuitiva pode fazer a diferença entre um usuário satisfeito e um usuário frustrado. Além disso, a primeira impressão 
+                                que um site ou aplicativo causa geralmente é determinada pelo seu front-end. Portanto, os desenvolvedores de front-end 
+                                desempenham um papel crítico na criação de experiências digitais agradáveis e eficazes.
+                            </p>
+                    
+                            <h2 align="center">O que se Aprende em um Curso de Desenvolvimento de Front-End?</h2>
+                            <p>Os cursos de desenvolvimento de front-end abrangem uma variedade de tópicos e habilidades essenciais para que os alunos 
+                                se tornem proficientes na criação de interfaces digitais de alta qualidade. Algumas das áreas de estudo comuns incluem:
+                            </p>
+                            <ul>
+                                <li><strong>HTML e CSS:</strong> A base do desenvolvimento web, essas linguagens são usadas para estruturar o conteúdo e estilizar a aparência de um site.</li>
+                                <li><strong>JavaScript:</strong> A linguagem de programação que torna as páginas web interativas e dinâmicas.</li>
+                                <li><strong>Frameworks e Bibliotecas:</strong> Muitos cursos incluem o aprendizado de frameworks populares, como React, Angular ou Vue.js, que simplificam o desenvolvimento front-end.</li>
+                                <li><strong>Design Responsivo:</strong> A criação de interfaces que se ajustam automaticamente a diferentes tamanhos de tela e dispositivos.</li>
+                                <li><strong>Acessibilidade:</strong> A garantia de que a interface seja utilizável por pessoas com diferentes necessidades e habilidades.</li>
+                                <li><strong>Testes e Depuração:</strong> A prática de identificar e corrigir erros no código.</li>
+                            </ul>
+                    
+                            <h2 align="center">Perspectivas de Carreira e Oportunidades</h2>
+                            <p>Com a crescente demanda por experiências digitais de alta qualidade, os desenvolvedores de front-end estão em alta 
+                                demanda no mercado de trabalho. Eles encontram oportunidades em uma ampla gama de setores, desde desenvolvimento web 
+                                tradicional até aplicativos móveis e sistemas de software.<br><br>  
+                                Além disso, muitos desenvolvedores de front-end têm a oportunidade de trabalhar de forma independente como freelancers, 
+                                colaborar com equipes de design ou explorar novos horizontes, como o desenvolvimento de jogos online.
+                            </p>
+                    
+                            <h2 align="center">Conclusão</h2>
+                            <p>O Curso de Desenvolvimento de Front-End é uma porta de entrada emocionante para o mundo da tecnologia da informação. 
+                                Ao dominar as habilidades necessárias para criar interfaces digitais atraentes e funcionais, você estará preparado para 
+                                desempenhar um papel essencial na criação de experiências digitais que cativam e envolvem os usuários.
+                                Portanto, se você tem interesse em mergulhar nesse campo emocionante e em constante evolução, considere embarcar nessa 
+                                jornada de aprendizado e descoberta no desenvolvimento de front-end.
+                            </p>
+                        </td>
+                        <td align="center" valign="top">
+                            <table>                                     
+                                <tr><td><a href="https://pt.wikihow.com/Criar-uma-P%C3%A1gina-Simples-da-Web-com-HTML" target="_blank">Html</a></td></tr>
+                                <tr><td><a href="https://www.devmedia.com.br/codigo-css-entendendo-a-folha-de-estilos/37459" target="_blank">Css</a></td></tr>
+                                <tr><td><a href="https://www.javascript.com/" target="_blank">JavaScript</a></td></tr>
+                                <tr><td><a href="https://pt-br.legacy.reactjs.org/" target="_blank">React</a></td></tr>
+                            </table>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td colspan="2"> <!-- expansão entre duas colunas-->
+                                <div style="background-color:#a5cccc; color: #000000; margin: 0;"> <!-- footer envolvido em <div> para a cor não mudar a tabela-->
+                                    <table align="center">
+                                        <tr>
+                                            <td> <!-- Line-heitht para reduzir o espaçamento entre as linhas-->
+                                                <p class="footer-text" style="line-height: 1.5em;">Desenvolvido por Adriana Ribeiro Oliveira no Curso de Programador Front-End com o Prof. Anthony Freitas <a href="https://sammyfreitas.github.io/portfolioSite/" target="_blank">site do professor</a>.</p>
+                                                <p class="footer-text" style="line-height: 1.5em;">Todos os direitos reservados Senai Maracanã - 2023 &copy;</p>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>                  
+    </table> 
+</body>
+</html>
